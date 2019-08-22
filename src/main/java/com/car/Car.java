@@ -2,8 +2,8 @@ package com.car;
 
 
 public class Car {
-	private String engine;
-	private String wheels;
+	protected String engine;
+	protected String wheels;
 
 	public Car(String engine, String wheels) {
 		this.engine = engine;
