@@ -1,7 +1,7 @@
 package com.car;
 
 
-public class Car {
+public abstract class Car {
 	protected String engine;
 	protected String wheels;
 
@@ -10,7 +10,5 @@ public class Car {
 		this.wheels = wheels;
 	}
 
-	public String start() {
-		return (this.engine + " is on and " + this.wheels + " are running!");
-	}
+	public abstract String start();
 }
